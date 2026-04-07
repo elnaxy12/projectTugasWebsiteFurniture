@@ -3,7 +3,6 @@
         <a class="navbar-brand" href="{{ route('home') }}">
             <span class="d-flex flex-column text-uppercase text-xs fw-bold lh-sm">
                 <span class="" style="letter-spacing: .12rem;">Furnish</span>
-                <span>Template</span>
             </span></a>
 
         <div class="mx-auto d-lg-block d-none">
@@ -28,7 +27,7 @@
             </ul>
         </div>
 
-        <div class="d-flex align-items-center gap-4">
+        <div class="d-md-none d-flex align-items-center gap-4">
             <span class="d-flex align-items-center gap-2 fw-bold">
                 <span>
                     <i class="bi bi-telephone"></i>
@@ -43,7 +42,6 @@
                         d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
                 </svg>
             </a>
-
         </div>
     </div>
 </nav>
@@ -53,7 +51,6 @@
         <a class="navbar-brand" href="#">
             <span class="d-flex flex-column text-uppercase text-xs fw-bold lh-sm">
                 <span class="" style="letter-spacing: 0.12rem">Furnish</span>
-                <span>Template</span>
             </span></a>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>

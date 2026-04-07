@@ -32,3 +32,39 @@ Route::get('/testimonials', function () {
 Route::get('/contact', function () {
     return view('frontend.contact.app');
 })->name('contact');
+
+Route::get('/dashboard', function () {
+    return view('backend.app');
+})->name('dashboard');
+
+Route::get('/maintenance', function() {
+return view('backend.pages.error.maintenance');
+})->name('maintenance');
+
+Route::get('/error', function() {
+return view('backend.pages.error.404-error');
+})->name('error');
+
+Route::get('/sign', function() {
+return view('backend.pages.authentication.sign-in');
+})->name('sign');
+
+Route::get('/signUp', function() {
+return view('backend.pages.authentication.sign-up');
+})->name('signUp');
+
+Route::get('/forget', function() {
+return view('backend.pages.authentication.forget-password');
+})->name('forgetPassword');
+
+Route::get('/reset', function() {
+return view('backend.pages.authentication.reset-password');
+})->name('resetPassword');
+
+Route::get('/otp', function() {
+return view('backend.pages.authentication.otp');
+})->name('otp');
+
+Route::get('/blank', function() {
+return view('backend.pages.blank');
+})->name('blank');

@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
-                        <h1 class="display-5 mb-3">Alpian sayang Tasya</h1>
+                        <h1 class="display-5 mb-3">About Our Store</h1>
                         <p class="text-muted  lead">
                             Discover the story behind Furnish — where design meets comfort. We craft modern furniture
                             that elevates your home experience.

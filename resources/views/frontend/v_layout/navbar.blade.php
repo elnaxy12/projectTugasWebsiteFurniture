@@ -27,14 +27,14 @@
             </ul>
         </div>
 
-        <div class="d-md-none d-flex align-items-center gap-4">
+        <div class="d-flex align-items-center gap-4">
             <span class="d-flex align-items-center gap-2 fw-bold">
                 <span>
                     <i class="bi bi-telephone"></i>
                 </span>
                 <span>+901234576</span>
             </span>
-            <a class="" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+            <a class="d-md-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
                 aria-controls="offcanvasExample">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list"
                     viewBox="0 0 16 16">

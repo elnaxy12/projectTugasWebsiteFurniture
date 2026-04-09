@@ -68,19 +68,19 @@
       </a>
       <ul class="dropdown-menu flex-column">
         <li class="nav-item">
-          <a class="nav-link" href="@@webRoot/pages/authentication/sign-in">Sign In</a>
+          <a class="nav-link" href="{{ route('sign') }}">Sign In</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="@@webRoot/pages/authentication/sign-up">Sign Up</a>
+          <a class="nav-link" href="{{ route('signUp') }}">Sign Up</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="@@webRoot/pages/authentication/forget-password">Forget Password</a>
+          <a class="nav-link" href="{{ route('forgetPassword') }}">Forget Password</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="@@webRoot/pages/authentication/reset-password">Reset Password</a>
+          <a class="nav-link" href="{{ route('resetPassword') }}">Reset Password</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="@@webRoot/pages/authentication/otp-varification">Otp Varification </a>
+          <a class="nav-link" href="{{ route('otp') }}">Otp Varification</a>
         </li>
       </ul>
     </li>
@@ -187,7 +187,7 @@
     </li>
     <!-- Nav item -->
     <li class="nav-item">
-      <a class="nav-link position-relative" href="{{ route('blank') }}"  aria-label="External Link">
+      <a class="nav-link position-relative" href="{{ route('blank') }}" aria-label="External Link">
         <span class="nav-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
